@@ -59,9 +59,8 @@ int main(void)
 		{
 			status = STATUS_QUIT;
 			std::cout << "Expression is empty." << std::endl;
-		}
-		
+		}	 
 	} while (status!=STATUS_QUIT);	
+	system("pause");
 	return 0;
-
 }

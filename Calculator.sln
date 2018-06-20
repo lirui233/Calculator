@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator", "Calculator\Calculator.vcxproj", "{036C149A-39A5-442F-AEEF-2AA11D590F2A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalculattorTest", "CalculattorTest\CalculattorTest.vcxproj", "{7B51063B-F3B3-49E6-8F9F-2617F6F36D8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{036C149A-39A5-442F-AEEF-2AA11D590F2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{036C149A-39A5-442F-AEEF-2AA11D590F2A}.Debug|Win32.Build.0 = Debug|Win32
+		{036C149A-39A5-442F-AEEF-2AA11D590F2A}.Release|Win32.ActiveCfg = Release|Win32
+		{036C149A-39A5-442F-AEEF-2AA11D590F2A}.Release|Win32.Build.0 = Release|Win32
+		{7B51063B-F3B3-49E6-8F9F-2617F6F36D8D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B51063B-F3B3-49E6-8F9F-2617F6F36D8D}.Debug|Win32.Build.0 = Debug|Win32
+		{7B51063B-F3B3-49E6-8F9F-2617F6F36D8D}.Release|Win32.ActiveCfg = Release|Win32
+		{7B51063B-F3B3-49E6-8F9F-2617F6F36D8D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

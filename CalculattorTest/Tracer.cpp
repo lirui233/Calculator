@@ -13,7 +13,7 @@ Tracer::~Tracer()
 	Dump();
 }
 
-void Tracer::Add(void*p, const char* file, long line)
+void Tracer::Add(void *p, const char* file, long line)
 {
 	if (lockCount_ > 0)
 		return;

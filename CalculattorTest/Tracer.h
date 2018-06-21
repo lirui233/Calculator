@@ -57,7 +57,7 @@ public:
 
 private:
 	std::map<void*, Entry>  mapEntry_;
-	int lockCount_;
+	int lockCount_; // ¼ÆÊýÆ÷
 	void lock() { ++lockCount_; }
 	void unlock() { --lockCount_; }
 };

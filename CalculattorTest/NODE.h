@@ -31,7 +31,7 @@ public:
 
 	NODE* Get()  const { return ptr_; }
 
-	NODE* Release()
+	NODE* Release() // ´«µÝÖ¸Õë
 	{
 		NODE* tmp = ptr_;
 		ptr_ = 0;

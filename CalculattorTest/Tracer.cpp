@@ -17,9 +17,9 @@ void Tracer::Add(void *p, const char* file, long line)
 {
 	if (lockCount_ > 0)
 		return;
-	Tracer::Lock lock(*this);
+	Tracer::Lock lock(*this); // 防止调用系统内部的new函数
 	//lock();
-	mapEntry_[p] = Entry(file, line);
+	mapEntry_[p] = Entry(file, line); // 该位置会再次调用new
 	//unlock(); 
 
 }

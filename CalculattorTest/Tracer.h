@@ -3,7 +3,7 @@
 #include<iostream>
 #include<map>
 
-#ifndef NDEBUG
+#ifndef NDEBUG // C++中Debug编译中就是加了该宏定义
 
 //void* operator new(size_t size);
 void  operator delete(void*p);
